@@ -1,0 +1,417 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "ui-button-color-testing;validate-login-button-color",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Validate Login button color",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 163015900
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 142121399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the browser",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 316299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I navigate to \"https://panic-alert-stage.azurewebsites.net/login\"",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3136703699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the button \"/html/body/app-root/app-login/div/div[2]/div[2]/div[1]/form/div[3]/input\" should have the color \"#009bb6\"",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\button-color.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 102143100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 98877099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 47420199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "ui-button-color-testing",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "UI Button Color Testing",
+    "tags": [],
+    "uri": "features\\button-colors.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-functionality-tests;verify-login-page-title",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify login page title",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 157192499
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 170486299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the browser",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 163800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I navigate to \"https://panic-alert-stage.azurewebsites.net/login\"",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1668530199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "The page title should contain \"Panic Alert\"",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5914499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 115716700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 60039499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality-tests;test-invalid-login",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Test invalid login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 140054799
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 144964800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open the browser",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 499300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I navigate to \"https://panic-alert-stage.azurewebsites.net/login\"",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1815838400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I enter \"wrong@email.com\" in the email field",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33237000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I enter \"invalidpassword\" in the password field",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13651699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click the login button",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54601899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see error message \"Unable to access Social Alert. Please contact the Administrator or try again later.\"",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104987000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 97506099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 40755200
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality-tests;test-successful-login",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Test successful login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 150517899
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 140887900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "I open the browser",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 152900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I navigate to \"https://panic-alert-stage.azurewebsites.net/login\"",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1759154300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I enter valid credentials",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40517200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I click the login button",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41557599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I should be redirected to the dashboard",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 460853800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 89661499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 47539999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-functionality-tests",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login Functionality Tests",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]

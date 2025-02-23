@@ -1,0 +1,22 @@
+{
+  "name": "playwright-gherkin",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=\"--loader=ts-node/esm\" cucumber-js features/**/*.feature --tags \"not @ignore\" --format json:test-results/json/cucumber_report.json --format @cucumber/pretty-formatter --import ./step-definitions/**/*.ts --import ./support/**/*.ts",
+    "report": "node support/report.js",
+    "test:buttons": "cross-env NODE_OPTIONS=\"--loader=ts-node/esm\" cucumber-js features/button-colors.feature --format json:test-results/json/cucumber_report.json --format @cucumber/pretty-formatter --import ./step-definitions/**/*.ts --import ./support/**/*.ts"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@cucumber/pretty-formatter": "^1.0.1",
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.5",
+    "playwright": "^1.50.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3",
+    "cross-env": "^7.0.3",
+    "cucumber-html-reporter": "^7.2.0"
+  }
+}
