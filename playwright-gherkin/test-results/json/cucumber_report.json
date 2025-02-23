@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 171061099
+              "duration": 149068199
             }
           },
           {
@@ -22,7 +22,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 133981600
+              "duration": 130021799
             }
           },
           {
@@ -35,7 +35,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 581598
+              "duration": 439000
             }
           },
           {
@@ -48,7 +48,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2359213899
+              "duration": 2280584899
             }
           },
           {
@@ -61,7 +61,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 102240398
+              "duration": 89797599
             }
           },
           {
@@ -69,7 +69,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 29650899
+              "duration": 27238200
             }
           },
           {
@@ -77,7 +77,1243 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 38217999
+              "duration": 35427300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ui-button-color-testing;validate-send-email-button-color",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Validate Send Email button color",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 138841499
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 125104699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open the browser",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 267800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I navigate to \"https://panic-alert-stage.azurewebsites.net/forgotPassword\"",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1796587398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the button \"[title='Send Email']\" should have the color \"#009bb6\"",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\button-color.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90042799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 36663299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 36116999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ui-button-color-testing;validate-create-account-button-color",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Validate Create Account button color",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 134417700
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 126410099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I open the browser",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 390298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I navigate to \"https://panic-alert-stage.azurewebsites.net/register\"",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1805502099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I check the \"#agree\" checkbox",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\button-color.steps.ts:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 509577400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the button \"[title='Create Account']\" should have the color \"#009bb6\"",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\button-color.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82958399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 32071999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 31085899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ui-button-color-testing;validate-location-button-color",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Validate Location button color",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 133188899
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 127808199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I open the browser",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 262700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I navigate to \"https://panic-alert-stage.azurewebsites.net/login\"",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1941854698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I enter valid credentials",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38801500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I click the login button",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46292799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I should be redirected to the dashboard",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 520125899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "the button \"[title='View on Map']\" should have the color \"#009bb6\"",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\button-color.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1980491900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 26100700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 27303599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ui-button-color-testing;validate-clear-button-color",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Validate Clear button color",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 137587999
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 126916000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "I open the browser",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 226998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "I navigate to \"https://panic-alert-stage.azurewebsites.net/login\"",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2147029600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I enter valid credentials",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37424000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "I click the login button",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39972598
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I should be redirected to the dashboard",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 798645199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "I click the \"[title='Filters']\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\button-color.steps.ts:135"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2613709599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "the button \"[title='Clear']\" should have the color \"#c12127\"",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\button-color.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 93130700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 26768799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 32391699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ui-button-color-testing;validate-apply-button-color",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Validate Apply button color",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 140804499
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 127593400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 37,
+            "name": "I open the browser",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 255300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "I navigate to \"https://panic-alert-stage.azurewebsites.net/login\"",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2100079598
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I enter valid credentials",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38610200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "I click the login button",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40522000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "I should be redirected to the dashboard",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 485560398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "I click the \"[title='Filters']\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\button-color.steps.ts:135"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1478164098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "the button \"[title='Apply']\" should have the color \"#009bb6\"",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\button-color.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83307300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 27441899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 30636099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ui-button-color-testing;validate-export-button-color",
+        "keyword": "Scenario",
+        "line": 45,
+        "name": "Validate Export button color",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 134051899
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 123676500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 46,
+            "name": "I open the browser",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 203599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 47,
+            "name": "I navigate to \"https://panic-alert-stage.azurewebsites.net/login\"",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1809867699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "I enter valid credentials",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37144299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "I click the login button",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56036599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "I should be redirected to the dashboard",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 492766599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "I click the \"[title='Alert History']\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\button-color.steps.ts:135"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2845714898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "the button \"[title='Export']\" should have the color \"#009bb6\"",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\button-color.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69566300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24828800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 27551699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ui-button-color-testing;validate-clear-filter-button-color",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "Validate Clear Filter button color",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 135609300
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 123309400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 55,
+            "name": "I open the browser",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 191099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 56,
+            "name": "I navigate to \"https://panic-alert-stage.azurewebsites.net/login\"",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1663180399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "I enter valid credentials",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36617399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "I click the login button",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57137300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "I should be redirected to the dashboard",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 450167999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "I click the \"[title='Alert History']\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\button-color.steps.ts:135"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2752304499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "the button \".remove-filter-btn\" should have the color \"#c12127\"",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\button-color.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57505099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24320900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 27409199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ui-button-color-testing;validate-apply-filter-button-color",
+        "keyword": "Scenario",
+        "line": 63,
+        "name": "Validate Apply Filter button color",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 135571400
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 132525799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 64,
+            "name": "I open the browser",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 238200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 65,
+            "name": "I navigate to \"https://panic-alert-stage.azurewebsites.net/login\"",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3191040399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 66,
+            "name": "I enter valid credentials",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39230499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 67,
+            "name": "I click the login button",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56716999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 68,
+            "name": "I should be redirected to the dashboard",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 491799699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 69,
+            "name": "I click the \"[title='Alert History']\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\button-color.steps.ts:135"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2071746599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "the button \".apply-filter-btn\" should have the color \"#0352ac\"",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\button-color.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57296500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 23496899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 25942399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ui-button-color-testing;validate--add-notification-button-color",
+        "keyword": "Scenario",
+        "line": 72,
+        "name": "Validate  Add Notification button color",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 136325699
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 132021500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 73,
+            "name": "I open the browser",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 523300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 74,
+            "name": "I navigate to \"https://panic-alert-stage.azurewebsites.net/login\"",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1761747099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 75,
+            "name": "I enter valid credentials",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36111099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 76,
+            "name": "I click the login button",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56405799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 77,
+            "name": "I should be redirected to the dashboard",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 459064599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 78,
+            "name": "I click the \"[title='Notifications']\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\button-color.steps.ts:135"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2033491199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 79,
+            "name": "the button \"[title='Add Notification']\" should have the color \"#009bb6\"",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\button-color.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64221999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24963300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 29317900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ui-button-color-testing;validate--add-user-button-color",
+        "keyword": "Scenario",
+        "line": 81,
+        "name": "Validate  Add User button color",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 135273200
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 126723500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 82,
+            "name": "I open the browser",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 206899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 83,
+            "name": "I navigate to \"https://panic-alert-stage.azurewebsites.net/login\"",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1709216898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 84,
+            "name": "I enter valid credentials",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37344899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 85,
+            "name": "I click the login button",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56908800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 86,
+            "name": "I should be redirected to the dashboard",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\login.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 492209998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 87,
+            "name": "I click the \"[title='Users']\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\button-color.steps.ts:135"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1924518699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 88,
+            "name": "the button \"[title='Add User']\" should have the color \"#009bb6\"",
+            "match": {
+              "location": "file:\\C:\\Users\\393di\\Desktop\\Automation_Framework\\playwright-gherkin\\step-definitions\\button-color.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58841199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24315099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 26227200
             }
           }
         ],
@@ -107,7 +1343,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 135734799
+              "duration": 140655399
             }
           },
           {
@@ -115,7 +1351,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 125753899
+              "duration": 127185399
             }
           },
           {
@@ -128,7 +1364,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 266698
+              "duration": 277999
             }
           },
           {
@@ -141,7 +1377,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1869146200
+              "duration": 2149294099
             }
           },
           {
@@ -154,7 +1390,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5227700
+              "duration": 3486900
             }
           },
           {
@@ -162,7 +1398,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 32625000
+              "duration": 38624799
             }
           },
           {
@@ -170,7 +1406,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 47992299
+              "duration": 36171700
             }
           }
         ],
@@ -189,7 +1425,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 149043199
+              "duration": 135510700
             }
           },
           {
@@ -197,7 +1433,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 151989600
+              "duration": 139432599
             }
           },
           {
@@ -210,7 +1446,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 321899
+              "duration": 222599
             }
           },
           {
@@ -223,7 +1459,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1814243299
+              "duration": 1735000600
             }
           },
           {
@@ -236,7 +1472,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 33061000
+              "duration": 29158599
             }
           },
           {
@@ -249,7 +1485,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11408799
+              "duration": 10775700
             }
           },
           {
@@ -262,7 +1498,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 57075999
+              "duration": 54019700
             }
           },
           {
@@ -275,7 +1511,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 105488499
+              "duration": 105378799
             }
           },
           {
@@ -283,7 +1519,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 29289200
+              "duration": 38190799
             }
           },
           {
@@ -291,7 +1527,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 35374500
+              "duration": 36521500
             }
           }
         ],
@@ -310,7 +1546,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 135995900
+              "duration": 130367200
             }
           },
           {
@@ -318,7 +1554,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 123697000
+              "duration": 125929800
             }
           },
           {
@@ -331,7 +1567,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 257798
+              "duration": 198298
             }
           },
           {
@@ -344,7 +1580,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1756724399
+              "duration": 1733554899
             }
           },
           {
@@ -357,7 +1593,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 41534898
+              "duration": 36845799
             }
           },
           {
@@ -370,7 +1606,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 55927399
+              "duration": 54345699
             }
           },
           {
@@ -383,7 +1619,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 791445099
+              "duration": 480866600
             }
           },
           {
@@ -391,7 +1627,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 44195399
+              "duration": 26822200
             }
           },
           {
@@ -399,7 +1635,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 35256000
+              "duration": 31828900
             }
           }
         ],

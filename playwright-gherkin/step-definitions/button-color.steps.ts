@@ -155,3 +155,16 @@ Then('the button {string} should have the color {string}', async function (butto
     throw error;
   }
 });
+
+Then('I check the {string} checkbox', async function (checkbox: string) {
+  await page.locator(checkbox).waitFor({state:'visible',timeout: 15000 });
+  await page.locator(checkbox).check()
+  await page.waitForLoadState('networkidle')
+});
+
+Then('I click the {string} button', async function (button: string) {
+  await page.locator(button).waitFor({state:'visible',timeout: 15000 });
+  await page.locator(button).click()
+  await page.waitForLoadState('load')
+  await page.waitForLoadState('networkidle')
+});
