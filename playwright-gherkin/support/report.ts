@@ -32,14 +32,14 @@ const options: reporter.Options = {
   reportSuiteAsScenarios: true,
   scenarioTimestamp: true,
   launchReport: false,
-  name: "ヤスケ テストレポート",
+  name: "ヤスケ テストレポート - QA Mike",
   metadata: {
     "App Name": "Panic Alert Automation",
     "Test Environment": "Stage",
     "Browser": "Chromium",
     "Platform": process.platform,
     "Executed": "Remote",
-    "Total Retries": retryCount.toString(), // ✅ FIX: Convert number to string
+    "Total Retries": retryCount.toString(), 
   },
 };
 
