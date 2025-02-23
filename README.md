@@ -5,8 +5,10 @@
 
 This README is intended for GitHub to document the project and its functionality.
 
-## Author
-This framework was created by **Michael A. Camacho**.
+## Author  
+This framework was created by **Michael A. Camacho**.  
+Inspired by Japanese methodologies: **Shokunin Kishitsu** (mastery), **Kaizen** (continuous improvement), **5S** (organization), and **Kodawari** (commitment to excellence).
+
 
 ## Features
 - **Gherkin Syntax Support**: Write test cases in a human-readable format.
