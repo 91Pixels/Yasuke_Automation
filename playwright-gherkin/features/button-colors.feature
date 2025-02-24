@@ -24,6 +24,14 @@ Feature: UI Button Color Testing
     Then I should be redirected to the dashboard
     Then the button "[title='View on Map']" should have the color "#009bb6"
 
+    Scenario: Validate Details button color
+    Given I open the browser
+    When I navigate to "https://panic-alert-stage.azurewebsites.net/login"
+    And I enter valid credentials
+    And I click the login button
+    Then I should be redirected to the dashboard
+    Then the button "/html/body/app-root/app-main/div/div/div[2]/div[2]/alert-component/div/div[2]/div[2]/div/ul/li[2]/div/div[3]/button[2]" should have the color "#009bb6"
+
     Scenario: Validate Clear button color
     Given I open the browser
     When I navigate to "https://panic-alert-stage.azurewebsites.net/login"
@@ -86,3 +94,11 @@ Feature: UI Button Color Testing
     Then I should be redirected to the dashboard
     Then I click the "[title='Users']" button
     Then the button "[title='Add User']" should have the color "#009bb6"
+
+    Scenario: Validate Side Menu Color
+    Given I open the browser
+    When I navigate to "https://panic-alert-stage.azurewebsites.net/login"
+    And I enter valid credentials
+    And I click the login button
+    Then I should be redirected to the dashboard
+    Then the button "/html/body/app-root/app-main/div/div/div[1]" should have the color "#021e3e"
